@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FFFFFF;
+  --color-text: #0D0D0D;
+  --color-accent-yellow: #F5E642;
+  --color-accent-pink: #FF2D8A;
+  --color-accent-green: #5CE65C;
+  --color-accent-purple: #7B5EA7;
+  --color-accent-coral: #FF5C5C;
+  --color-mint: #D6E8D4;
+
+  --font-family-heading: 'Syne', sans-serif;
+  --font-family-body: 'DM Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #FFFFFF;
+  color: #0D0D0D;
+}
